@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/home/home",
+    "pages/login/login",
+    "pages/index/index",
+    "view/personal/personal",
+    "pages/logs/logs",
+   
+    "pages/sing/sing",
+    "pages/cloudVillage/cloudVillage",
+    "pages/video/video"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#d43c33",
+    "navigationBarTitleText": "Music",
+    "navigationBarTextStyle": "white"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "selectedColor": "#d43c33",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "发现",
+        "iconPath": "static/tabIcon/网易云1.png",
+        "selectedIconPath": "static/tabIcon/网易云.png"
+      },
+      {
+        "pagePath": "pages/video/video",
+        "text": "播客",
+        "iconPath": "static/tabIcon/播客1.png",
+        "selectedIconPath": "static/tabIcon/播客.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "我的",
+        "iconPath": "static/tabIcon/音乐1.png",
+        "selectedIconPath": "static/tabIcon/音乐.png"
+      },
+      {
+        "pagePath": "pages/sing/sing",
+        "text": "K歌",
+        "iconPath": "static/tabIcon/K歌1.png",
+        "selectedIconPath": "static/tabIcon/K歌.png"
+      },
+      {
+        "pagePath": "pages/cloudVillage/cloudVillage",
+        "text": "云村",
+        "iconPath": "static/tabIcon/成员1.png",
+        "selectedIconPath": "static/tabIcon/成员.png"
+      }
+    ]
+  }
+}

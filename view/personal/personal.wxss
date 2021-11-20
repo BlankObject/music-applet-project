@@ -1,0 +1,397 @@
+@import '../../static/iconfont/nav.wxss';
+.big{
+ position: fixed;
+ top:0rpx ;
+ left: -810rpx;
+ Z-index: 999;
+ height: 1800rpx;
+}
+.animation{
+  left: 0;
+  animation: move 0.45s;
+}
+.animationTo{
+  left: -810rpx;
+  animation: moveTo 0.35s;
+}
+@keyframes moveTo{
+  from{
+    left: 0rpx;
+  }
+  to{
+    left: -810rpx;
+  }
+}
+@keyframes move{
+  from{
+    left: -810rpx;
+  }
+  to{
+    left: 0rpx;
+  }
+}
+.userInfo:active {
+	/* transform: scale(2); */
+	background: #cecece;
+}
+.sign:active {
+	background: #cecece;
+}
+.author:active {
+	background: #cecece;
+}
+.cloud:active {
+	background: #cecece;
+}
+.mall:active {
+	background: #cecece;
+}
+.game:active {
+	background: #cecece;
+}
+.ringtone:active {
+	background: #cecece;
+}
+
+.big .container{
+  position: relative;
+  background-color: white;
+  width: 635rpx;
+  /* position: absolute; */
+}
+.personal{
+  width: 82%;
+  height: 100vh;
+  
+  /* background-color: grey; */
+}
+.personal .headHortrait{
+  display: flex;
+  margin-top: 5rpx;
+  padding: 20rpx;
+  /* position: fixed; */
+}
+.personal .headHortrait image{
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+}
+
+.personal .headHortrait .name{
+  width: 300rpx;
+  height: 80rpx;
+  line-height: 80rpx;
+  text-align: left;
+  margin-left: 20rpx;
+  font-size: 34rpx;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.personal .headHortrait .search{
+  width: 70rpx;
+  height: 70rpx;
+  line-height: 80rpx;
+  /* float: right; */
+  padding-left: 30rpx;
+  text-align: right;
+  font-size: 50rpx;
+  border: none;
+  position: absolute;
+  left: 492rpx;
+}
+
+/*下面的包裹器  */
+
+/* 会员中心 */
+.members{
+  margin-top: 17rpx;
+  margin-left: 20rpx;
+  padding: 20rpx;
+  width: 525rpx;
+  height: 200rpx;
+  background-color: grey;
+  border-radius: 35rpx;
+  /* 8e8e8e afafaf */
+  /* background-image: linear-gradient(to #afafaf, #8e8e8e); */
+}
+.members .title .titleVip{
+  font-size: 40rpx;
+  color: rgb(230, 216, 216);
+  font-weight: bold;
+}
+.members .title .vip{
+  font-size: 28rpx;
+  display: block;
+  width: 150rpx;
+  height: 48rpx;
+  border: 1rpx solid white;
+  text-align: center;
+  border-radius: 20rpx;
+  line-height: 48rpx;
+  color: white;
+  float: right;
+}
+.members .titleItem{
+  font-size: 27rpx;
+  color: rgb(230, 217, 217);
+}
+.members .titleItem .iconfont{
+  font-size: 24rpx;
+}
+.members .info{
+  position: relative;
+  margin-top: 0rpx;
+  padding-top: 45rpx;
+  border-top: 1rpx solid rgb(214, 208, 208);
+}
+.members .info .infoItem{
+  font-size: 26rpx;
+  color: rgb(214, 208, 208);
+  margin-right: 30rpx;
+}
+.members .info .infoIcon{
+  color: rgb(248, 237, 237);
+  font-size: 25rpx;
+  position: absolute;
+  display: inline-block;
+  width: 60rpx;
+  height: 69rpx;
+  border: 1rpx solid tomato;
+  background-color: tomato;
+  border-radius: 10rpx;
+  text-align: center;
+  top: 35rpx;
+  left: 435rpx;
+}
+
+/* user */
+.user{
+  margin-top: 25rpx;
+  margin-left: 20rpx;
+  /* padding-left: 20rpx; */
+  width: 563rpx;
+  height: 303rpx;
+  border: 1rpx solid #ddd;
+  border-radius: 25rpx;
+}
+.user .userInfo{
+  height: 100rpx;
+  line-height: 100rpx;
+  padding: auto 0;
+  border-radius: 25rpx 25rpx 0 0;
+  padding-left: 20rpx;
+  border-bottom: 1rpx solid #ddd;
+  position: relative;
+}
+.user .sign{
+  height: 100rpx;
+  line-height: 100rpx;
+  padding-left: 20rpx;
+  border-bottom: 1rpx solid #ddd;
+  position: relative;
+}
+.user .author{
+  height: 100rpx;
+  line-height: 100rpx;
+  padding-left: 20rpx;
+  position: relative;
+}
+.user .userInfo .ico{
+  padding-left: 21rpx;
+  font-size: 35rpx;
+}
+.user .userInfo .text1{
+  padding-left: 31rpx;
+  font-size: 33rpx;
+}
+.user .userInfo .index{
+  position: absolute;
+  font-size: 20rpx;
+  text-align: center;
+  display: inline-block;
+  margin-left: 210rpx;
+  width: 40rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  border: 1px solid tomato;
+  border-radius: 50%;
+  background-color: tomato;
+  color: #ddd;
+  top: 29rpx;
+}
+.user .userInfo .right{
+  margin-left: 275rpx;
+}
+.user .sign .ico{
+  font-size: 50rpx;
+}
+.user .sign .text2{
+  padding-left: 25rpx;
+  font-size: 33rpx;
+  position: absolute;
+  top: 0rpx;
+}
+.user .sign .signIn{
+  display: inline-block;
+  margin-left: 180rpx;
+  font-size: 27rpx;
+  color: tomato;
+  width: 80rpx;
+  height: 40rpx;
+  line-height: 40rpx;
+  text-align: center;
+  border: 1rpx solid tomato;
+  border-radius: 30rpx;
+  position: absolute;
+  left: 220rpx;
+  top:30rpx
+}
+.user .sign .right{
+  position: absolute;
+  top: 2rpx;
+  right: 35rpx;
+}
+.user .author .ico{
+  font-size: 55rpx;
+}
+.user .author .text3{
+  padding-left: 19rpx;
+  font-size: 33rpx;
+  position: absolute;
+}
+.user .author .right{
+  position: absolute;
+  top: 2rpx;
+  right: 35rpx;
+}
+
+/* 音乐服务 */
+.musicService{
+  margin-left: 20rpx;
+  margin-top: 20rpx;
+  width: 563rpx;
+  height: 460rpx;
+  border: 1rpx solid #ddd;
+  border-radius: 20rpx;
+  /* padding: 25rpx; */
+}
+.musicService view:last-child{
+  border: none;
+}
+.musicService .title{
+  display: inline-block;
+  width: 539rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 26rpx;
+  padding-left: 25rpx;
+  border-bottom: 1rpx solid #ddd;
+}
+.musicService .cloud{
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: 1rpx solid #ddd;
+  position: relative;
+  padding-left: 25rpx;
+}
+.musicService .cloud .one{
+  font-size: 50rpx;
+}
+.musicService .cloud .text1{
+  padding-left: 20rpx;
+  font-size: 33rpx;
+  position: absolute;
+}
+.musicService .cloud .right{
+  position: absolute;
+  right: 36rpx;
+}
+
+.musicService .mall{
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: 1rpx solid #ddd;
+  position: relative;
+  padding-left: 25rpx;
+}
+.musicService .mall .two{
+  font-size: 48rpx;
+  font-weight: 500;
+}
+.musicService .mall .text2{
+  padding-left: 20rpx;
+  font-size: 33rpx;
+  position: absolute;
+}
+.musicService .mall .advertising{
+  font-size:24rpx;
+  position: absolute;
+  right: 100rpx;
+}
+.musicService .mall .right{
+  position: absolute;
+  right: 36rpx;
+}
+
+.musicService .game{
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: 1rpx solid #ddd;
+  padding-left: 25rpx;
+  position: relative;
+}
+.musicService .game .three{
+  font-size:50rpx;
+}
+.musicService .game .text3{
+  padding-left: 20rpx;
+  font-size: 33rpx;
+  position: absolute;
+}
+.musicService .game .right{
+  position: absolute;
+  right: 36rpx;
+}
+
+.musicService .ringtone{
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: 1rpx solid #ddd;
+  padding-left: 25rpx;
+  position: relative;
+}
+.musicService .ringtone .four{
+  font-size: 57rpx;
+}
+.musicService .ringtone .text4{
+  padding-left: 16rpx;
+  position: absolute;
+  font-size: 33rpx;
+}
+.musicService .ringtone .advertising{
+  font-size:24rpx;
+  position: absolute;
+  right: 100rpx;
+}
+.musicService .ringtone .right{
+  position: absolute;
+  right: 36rpx;
+}
+.floor{
+  height: 300rpx;
+}
+
+.obscuration{
+  width: 160rpx;
+  height: 112vh;
+  position: absolute;
+  top: -20rpx;
+  right: -158rpx;
+  z-index: 998;
+  /* box-shadow: 0 0 0 2000px rgba(0,0,0,0.7); */
+  background: rgba(0, 0, 0, 0.4);
+}
+
+/* .big{
+  position: absolute;
+} */
+

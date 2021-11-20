@@ -1,0 +1,78 @@
+<!-- 个人信息中心 -->
+<view class="big" >
+  <view class="container">
+    <view class="obscuration">
+    </view>
+    <view class="personal">
+    <!-- 头像 -->
+    <view class="headHortrait">
+      <image src="../../static/images/bj4.jpg"></image>
+      <text class="name">热茶_Sila <text class="iconfont icon-arr-right"></text></text>
+      <text class="iconfont icon-saoyisao search"></text>
+    </view>
+    <!-- 会员中心 -->
+    <view class="members">
+      <view class="title">
+        <text class="titleVip">黑胶VIP</text>
+        <text class="vip">会员中心</text>
+      </view>
+      <text class="titleItem">重启会员成长体系<text class="iconfont icon-arr-right"></text></text>
+      <view class="info">
+        <text class="infoItem">受邀专享,黑胶会员低至0.32元/天！</text>
+        <text class="infoIcon">受邀专享</text>
+      </view>
+    </view>
+
+    <!-- user信息 -->
+    <view class="user">
+      <view class="userInfo">
+        <text class="iconfont icon-xinxi1 ico"></text>
+        <text class="text1">我的信息</text>
+        <text class="index">1</text>
+        <text class="iconfont icon-arr-right right"></text>
+      </view>
+      <view class="sign">
+        <text class="iconfont icon-yun ico"></text>
+        <text class="text2">云贝中心</text>
+        <text class="signIn">签到</text>
+        <text class="iconfont icon-arr-right right"></text>
+      </view>
+      <view class="author">
+        <text class="iconfont icon-dengpao ico"></text>
+        <text class="text3">创作者中心</text>
+        <text class="iconfont icon-arr-right right"></text>
+      </view>
+    </view>
+    <!-- 音乐服务 -->
+    <view class="musicService">
+      <text class="title">音乐服务</text>
+      <view class="cloud">
+        <text class="iconfont icon-piao one"></text>
+        <text class="text1">云村有票</text>
+        <text class="iconfont icon-arr-right right"></text>
+      </view>
+      <view class="mall">
+        <text class="iconfont icon-gouwuche two"></text>
+        <text class="text2">商城</text>
+        <text class="advertising">爆款头戴89元抢<text></text></text>
+        <text class="iconfont icon-arr-right right"></text>
+      </view>
+      <view class="game">
+        <text class="iconfont icon-youxishoubing three"></text>
+        <text class="text3">游戏专区</text>
+        <text class="iconfont icon-arr-right right"></text>
+      </view>
+      <view class="ringtone">
+        <text class="iconfont icon-cailing four"></text>
+        <text class="text4">口袋彩铃</text>
+        <text class="advertising">拿去吧你<text></text></text>
+        <text class="iconfont icon-arr-right right"></text>
+      </view>
+    </view>
+    
+    <!-- 占位 -->
+      <view class="floor">
+      </view>
+    </view>
+  </view>
+</view>
